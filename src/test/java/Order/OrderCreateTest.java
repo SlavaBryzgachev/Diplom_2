@@ -22,22 +22,11 @@ public class OrderCreateTest {
     private User user;
     @Before
     public void setUp() {
-        RestAssured.baseURI = "https://stellarburgers.nomoreparties.site";
         userClient = new UserClient();
+        orderClient = new OrderClient();
         order = new Order();
         user = User.getRandomUser();
     }
-
-//    @Test
-//    @DisplayName("Получение списка ингридиентов")
-//    @Description("Список получен код ответа 200")
-//    public void getAllIngredients() {
-//        response = userClient.getAllIngredients();
-//        boolean isGet = response.extract().path("success");
-//        int statusCode = response.extract().statusCode();
-//        assertEquals(SC_OK, statusCode);
-//        assertTrue(isGet);
-//    }
     @Test
     @DisplayName("Создание заказа после авторизации пользователя")
     @Description("Заказ создан, код ответа 200")

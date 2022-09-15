@@ -22,7 +22,6 @@ public class LoginUserTest {
 
     @Before
     public void setUp() {
-        RestAssured.baseURI = "https://stellarburgers.nomoreparties.site";
         user = User.getRandomUser();
         userClient = new UserClient();
     }

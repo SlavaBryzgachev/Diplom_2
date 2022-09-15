@@ -1,7 +1,7 @@
 package ru.yandex.praktikum;
 import io.restassured.response.ValidatableResponse;
 import ru.yandex.praktikum.config.Config;
-import ru.yandex.praktikum.endPoints.endPoints;
+import ru.yandex.praktikum.endPoints.EndPoints;
 
 import static io.restassured.RestAssured.given;
 public class UserClient extends Config {
@@ -10,7 +10,7 @@ public class UserClient extends Config {
                 .spec(getBaseSpec())
                 .body(user)
                 .log().all()
-                .post(endPoints.USER_PATH + "register")
+                .post(EndPoints.USER_PATH + "register")
                 .then()
                 .log().all();
     }
@@ -20,7 +20,7 @@ public class UserClient extends Config {
                 .auth().oauth2(accessToken)
                 .body(user)
                 .log().all()
-                .post(endPoints.USER_PATH + "login")
+                .post(EndPoints.USER_PATH + "login")
                 .then()
                 .log().all();
     }
@@ -28,7 +28,7 @@ public class UserClient extends Config {
         return given()
                 .spec(getBaseSpec())
                 .log().all()
-                .get(endPoints.INGREDIENTS_PATH)
+                .get(EndPoints.INGREDIENTS_PATH)
                 .then()
                 .log().all();
     }
@@ -38,7 +38,7 @@ public class UserClient extends Config {
                 .spec(getBaseSpec())
                 .auth().oauth2(accessToken)
                 .log().all()
-                .delete(endPoints.USER_PATH + "user")
+                .delete(EndPoints.USER_PATH + "user")
                 .then()
                 .log().all();
     }
@@ -48,7 +48,7 @@ public class UserClient extends Config {
                 .header("Authorization", accessToken)
                 .body(user)
                 .log().all()
-                .patch(endPoints.USER_PATH + "user")
+                .patch(EndPoints.USER_PATH + "user")
                 .then()
                 .log().all();
     }
@@ -57,7 +57,7 @@ public class UserClient extends Config {
                 .spec(getBaseSpec())
                 .body(user)
                 .log().all()
-                .patch(endPoints.USER_PATH + "user")
+                .patch(EndPoints.USER_PATH + "user")
                 .then()
                 .log().all();
     }

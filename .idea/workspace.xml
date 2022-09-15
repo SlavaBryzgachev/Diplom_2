@@ -4,7 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f261208e-de86-4127-ac29-224e75d5f54e" name="Changes" comment="final" />
+    <list default="true" id="f261208e-de86-4127-ac29-224e75d5f54e" name="Changes" comment="final">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/praktikum/OrderClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/praktikum/OrderClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/praktikum/UserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/praktikum/UserClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/praktikum/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/praktikum/config/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/praktikum/endPoints/endPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/praktikum/endPoints/EndPoints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Order/GetOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Order/GetOrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Order/OrderCreateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Order/OrderCreateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/User/ChangingUserDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/User/ChangingUserDataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/User/LoginUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/User/LoginUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/User/UserCreateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/User/UserCreateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/yandex/praktikum/OrderClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/yandex/praktikum/OrderClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/yandex/praktikum/UserClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/yandex/praktikum/UserClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/yandex/praktikum/config/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/yandex/praktikum/config/Config.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/yandex/praktikum/endPoints/endPoints.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/yandex/praktikum/endPoints/endPoints.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Order/GetOrderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Order/GetOrderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Order/OrderCreateTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Order/OrderCreateTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/User/ChangingUserDataTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/User/ChangingUserDataTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/User/LoginUserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/User/LoginUserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/User/UserCreateTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/User/UserCreateTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +69,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Users/bryzgachev_v/IdeaProjects/Diplom-2",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
@@ -57,8 +80,8 @@
       <command value="mvn allure:serve" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ChangingUserDataTest (1)">
-    <configuration name="ChangingUserDataTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ChangingUserDataTest">
+    <configuration name="ChangingUserDataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hello-world" />
       <extension name="coverage">
         <pattern>
@@ -74,7 +97,7 @@
       </method>
     </configuration>
     <configuration name="GetOrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Diplom_2" />
+      <module name="hello-world" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Order.*" />
@@ -89,7 +112,7 @@
       </method>
     </configuration>
     <configuration name="LoginUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Diplom_2" />
+      <module name="hello-world" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="User.*" />
@@ -104,7 +127,7 @@
       </method>
     </configuration>
     <configuration name="OrderCreateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Diplom_2" />
+      <module name="hello-world" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Order.*" />
@@ -119,7 +142,7 @@
       </method>
     </configuration>
     <configuration name="UserCreateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Diplom_2" />
+      <module name="hello-world" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="User.*" />
@@ -135,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ChangingUserDataTest (1)" />
-        <item itemvalue="JUnit.UserCreateTest" />
+        <item itemvalue="JUnit.ChangingUserDataTest" />
         <item itemvalue="JUnit.OrderCreateTest" />
-        <item itemvalue="JUnit.LoginUserTest" />
         <item itemvalue="JUnit.GetOrderTest" />
+        <item itemvalue="JUnit.UserCreateTest" />
+        <item itemvalue="JUnit.LoginUserTest" />
       </list>
     </recent_temporary>
   </component>

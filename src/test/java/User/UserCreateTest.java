@@ -20,7 +20,6 @@ public class UserCreateTest {
     private String accessToken;
     @Before
     public void setUp() {
-        RestAssured.baseURI = "https://stellarburgers.nomoreparties.site";
         user = User.getRandomUser();
         userClient = new UserClient();
     }
@@ -58,7 +57,6 @@ public class UserCreateTest {
         int statusCode = response.extract().statusCode();
         boolean isUserNotCreate = response.extract().path("success");
         assertFalse(isUserNotCreate);
-        assertEquals(SC_FORBIDDEN, statusCode);
-        userClient.deleteUser(StringUtils.substringAfter(accessToken, " "));
+        assertEquals(SC_FORBIDDEN, statusCode);// Тут падает  ошибка если добавлять удаление пользователя, т.к он не видит токен
     }
 }

@@ -2,7 +2,7 @@ package ru.yandex.praktikum;
 
 import io.restassured.response.ValidatableResponse;
 import ru.yandex.praktikum.config.Config;
-import ru.yandex.praktikum.endPoints.endPoints;
+import ru.yandex.praktikum.endPoints.EndPoints;
 
 import static io.restassured.RestAssured.given;
 
@@ -13,7 +13,7 @@ public class OrderClient extends Config {
                 .header("Authorization", accessToken)
                 .body(order)
                 .log().all()
-                .post(endPoints.ORDER_PATH)
+                .post(EndPoints.ORDER_PATH)
                 .then()
                 .log().all();
     }
@@ -22,7 +22,7 @@ public class OrderClient extends Config {
                 .spec(getBaseSpec())
                 .body(order)
                 .log().all()
-                .post(endPoints.ORDER_PATH)
+                .post(EndPoints.ORDER_PATH)
                 .then()
                 .log().all();
     }
@@ -31,7 +31,7 @@ public class OrderClient extends Config {
                 .spec(getBaseSpec())
                 .header("Authorization", accessToken)
                 .log().all()
-                .get(endPoints.ORDER_PATH)
+                .get(EndPoints.ORDER_PATH)
                 .then()
                 .log().all();
     }
@@ -39,7 +39,7 @@ public class OrderClient extends Config {
         return given()
                 .spec(getBaseSpec())
                 .log().all()
-                .get(endPoints.ORDER_PATH)
+                .get(EndPoints.ORDER_PATH)
                 .then()
                 .log().all();
     }

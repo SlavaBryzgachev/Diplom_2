@@ -24,9 +24,9 @@ public class GetOrderTest {
 
     @Before
     public void setUp() {
-        RestAssured.baseURI = "https://stellarburgers.nomoreparties.site";
-        user = User.getRandomUser();
+        user = user.getRandomUser();
         userClient = new UserClient();
+        orderClient = new OrderClient();
         order = new Order();
     }
     @Test

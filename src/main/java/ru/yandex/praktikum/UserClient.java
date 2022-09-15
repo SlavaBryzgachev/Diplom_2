@@ -1,8 +1,5 @@
 package ru.yandex.praktikum;
-
 import io.restassured.response.ValidatableResponse;
-import ru.yandex.praktikum.Order;
-import ru.yandex.praktikum.User;
 import ru.yandex.praktikum.config.Config;
 import ru.yandex.praktikum.endPoints.endPoints;
 
@@ -35,25 +32,7 @@ public class UserClient extends Config {
                 .then()
                 .log().all();
     }
-    public ValidatableResponse orderCreate(Order order, String accessToken) {
-        return given()
-                .spec(getBaseSpec())
-                .header("Authorization", accessToken)
-                .body(order)
-                .log().all()
-                .post(endPoints.ORDER_PATH)
-                .then()
-                .log().all();
-    }
-    public ValidatableResponse createOrderWithoutAuthorization(Order order) {
-        return given()
-                .spec(getBaseSpec())
-                .body(order)
-                .log().all()
-                .post(endPoints.ORDER_PATH)
-                .then()
-                .log().all();
-    }
+
     public ValidatableResponse deleteUser(String accessToken) {
         return given()
                 .spec(getBaseSpec())
@@ -79,23 +58,6 @@ public class UserClient extends Config {
                 .body(user)
                 .log().all()
                 .patch(endPoints.USER_PATH + "user")
-                .then()
-                .log().all();
-    }
-    public ValidatableResponse getOrdersByAuth(String accessToken) {
-        return given()
-                .spec(getBaseSpec())
-                .header("Authorization", accessToken)
-                .log().all()
-                .get(endPoints.ORDER_PATH)
-                .then()
-                .log().all();
-    }
-    public ValidatableResponse getOrdersWithoutAuth() {
-        return given()
-                .spec(getBaseSpec())
-                .log().all()
-                .get(endPoints.ORDER_PATH)
                 .then()
                 .log().all();
     }

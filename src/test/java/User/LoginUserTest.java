@@ -8,12 +8,10 @@ import org.apache.commons.lang3.StringUtils;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import ru.yandex.praktikum.GenerateRandomUser;
 import ru.yandex.praktikum.User;
 import ru.yandex.praktikum.UserClient;
-
-import static org.apache.hc.core5.http.HttpStatus.SC_OK;
-import static org.apache.hc.core5.http.HttpStatus.SC_UNAUTHORIZED;
+import static org.apache.http.HttpStatus.SC_OK;
+import static org.apache.http.HttpStatus.SC_UNAUTHORIZED;
 import static org.junit.Assert.*;
 
 public class LoginUserTest {
@@ -25,7 +23,7 @@ public class LoginUserTest {
     @Before
     public void setUp() {
         RestAssured.baseURI = "https://stellarburgers.nomoreparties.site";
-        user = GenerateRandomUser.getRandomUser();
+        user = User.getRandomUser();
         userClient = new UserClient();
     }
     @After
@@ -35,7 +33,7 @@ public class LoginUserTest {
     @Test
     @DisplayName("Авторизация зарегистрированного пользователя")
     @Description("Пользователь успешно авторизуется, код ответа 200 OK")
-    public void LoginUserTest() {
+    public void loginUserTest() {
         response = userClient.createUser(user);
         accessToken = response.extract().path("accessToken");
         response = userClient.loginUser(user, accessToken);

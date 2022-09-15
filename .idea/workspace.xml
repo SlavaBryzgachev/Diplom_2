@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f261208e-de86-4127-ac29-224e75d5f54e" name="Changes" comment="final">
-      <change beforePath="$PROJECT_DIR$/../Diplom_1/.idea/Diplom_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Diplom_1/.idea/Diplom_1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sprint_3" beforeDir="false" afterPath="$PROJECT_DIR$/../Sprint_3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/praktikum/OrderClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/praktikum/GenerateRandomUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/praktikum/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/praktikum/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/praktikum/UserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/praktikum/UserClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/praktikum/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/praktikum/config/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Order/GetOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Order/GetOrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Order/OrderCreateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Order/OrderCreateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/User/ChangingUserDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/User/ChangingUserDataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/User/LoginUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/User/LoginUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/User/UserCreateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/User/UserCreateTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +34,7 @@
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$/.." value="develop1" />
-        <entry key="$PROJECT_DIR$" value="dev2" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,6 +42,13 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2EOufkrCX92ZA6rrOHj7KElulRd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -43,7 +60,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/bryzgachev_v/IdeaProjects/Diplom-2",
+    "last_opened_file_path": "C:/Users/bryzgachev_v/IdeaProjects/Diplom3",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
@@ -53,9 +70,9 @@
       <command value="mvn allure:serve" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserCreateTest">
-    <configuration name="ChangingUserDataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Diplom_2" />
+  <component name="RunManager" selected="JUnit.ChangingUserDataTest (1)">
+    <configuration name="ChangingUserDataTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello-world" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="User.*" />
@@ -131,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ChangingUserDataTest (1)" />
         <item itemvalue="JUnit.UserCreateTest" />
         <item itemvalue="JUnit.OrderCreateTest" />
         <item itemvalue="JUnit.LoginUserTest" />
         <item itemvalue="JUnit.GetOrderTest" />
-        <item itemvalue="JUnit.ChangingUserDataTest" />
       </list>
     </recent_temporary>
   </component>

@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f261208e-de86-4127-ac29-224e75d5f54e" name="Changes" comment="final">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/praktikum/OrderClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/praktikum/GenerateRandomUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/praktikum/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/praktikum/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/praktikum/UserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/praktikum/UserClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yandex/praktikum/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yandex/praktikum/config/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Order/GetOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Order/GetOrderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Order/OrderCreateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Order/OrderCreateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/User/ChangingUserDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/User/ChangingUserDataTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/User/LoginUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/User/LoginUserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/User/UserCreateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/User/UserCreateTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="f261208e-de86-4127-ac29-224e75d5f54e" name="Changes" comment="final" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +47,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/bryzgachev_v/IdeaProjects/Diplom3",
+    "last_opened_file_path": "C:/Users/bryzgachev_v/IdeaProjects/Diplom-2",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>

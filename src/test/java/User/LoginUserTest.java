@@ -41,7 +41,6 @@ public class LoginUserTest {
         assertEquals(SC_OK, statusCode);
         assertTrue(isUserLogin);
     }
-
     @Test
     @DisplayName("Авторизация пользователя с пустым полем email")
     @Description("Ошибка 401")

@@ -42,7 +42,7 @@ public class GetOrderTest {
         boolean isGet = response.extract().path("success");
         assertEquals(SC_OK, statusCode);
         assertTrue(isGet);
-        response = userClient.deleteUser(StringUtils.substringAfter(accessToken, " "));
+        userClient.deleteUser(StringUtils.substringAfter(accessToken, " "));
     }
     @Test
     @DisplayName("Получение заказов неавторизованного пользователя")

@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="User.LoginUserTest" time="2.873" tests="3" errors="2" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Users\bryzgachev_v\IdeaProjects\Diplom-2\target\test-classes;C:\Users\bryzgachev_v\IdeaProjects\Diplom-2\target\classes;C:\Users\bryzgachev_v\.m2\repository\io\qameta\allure\allure-junit4\2.18.0\allure-junit4-2.18.0.jar;C:\Users\bryzgachev_v\.m2\repository\io\qameta\allure\allure-java-commons\2.18.0\allure-java-commons-2.18.0.jar;C:\Users\bryzgachev_v\.m2\repository\io\qameta\allure\allure-model\2.18.0\allure-model-2.18.0.jar;C:\Users\bryzgachev_v\.m2\repository\io\qameta\allure\allure-rest-assured\2.18.0\allure-rest-assured-2.18.0.jar;C:\Users\bryzgachev_v\.m2\repository\io\qameta\allure\allure-attachments\2.18.0\allure-attachments-2.18.0.jar;C:\Users\bryzgachev_v\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\bryzgachev_v\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\bryzgachev_v\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\bryzgachev_v\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\bryzgachev_v\.m2\repository\com\codeborne\selenide\5.23.2\selenide-5.23.2.jar;C:\Users\bryzgachev_v\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\bryzgachev_v\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\bryzgachev_v\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\bryzgachev_v\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\bryzgachev_v\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\bryzgachev_v\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\bryzgachev_v\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\bryzgachev_v\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\bryzgachev_v\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\bryzgachev_v\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\bryzgachev_v\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\bryzgachev_v\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\bryzgachev_v\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\bryzgachev_v\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\bryzgachev_v\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.3\webdrivermanager-4.4.3.jar;C:\Users\bryzgachev_v\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\bryzgachev_v\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\bryzgachev_v\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\bryzgachev_v\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\bryzgachev_v\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\bryzgachev_v\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1\httpclient5-5.1.jar;C:\Users\bryzgachev_v\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.1\httpcore5-5.1.1.jar;C:\Users\bryzgachev_v\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.1\httpcore5-h2-5.1.1.jar;C:\Users\bryzgachev_v\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\bryzgachev_v\.m2\repository\com\google\guava\guava\30.1.1-jre\guava-30.1.1-jre.jar;C:\Users\bryzgachev_v\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\bryzgachev_v\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\bryzgachev_v\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\bryzgachev_v\.m2\repository\org\checkerframework\checker-qual\3.8.0\checker-qual-3.8.0.jar;C:\Users\bryzgachev_v\.m2\repository\com\google\errorprone\error_prone_annotations\2.5.1\error_prone_annotations-2.5.1.jar;C:\Users\bryzgachev_v\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\bryzgachev_v\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\bryzgachev_v\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\bryzgachev_v\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\bryzgachev_v\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\bryzgachev_v\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\bryzgachev_v\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\bryzgachev_v\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\bryzgachev_v\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\bryzgachev_v\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\bryzgachev_v\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\bryzgachev_v\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\bryzgachev_v\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\bryzgachev_v\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\bryzgachev_v\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\bryzgachev_v\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\bryzgachev_v\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\bryzgachev_v\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\bryzgachev_v\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.0\jackson-databind-2.13.0.jar;C:\Users\bryzgachev_v\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.0\jackson-annotations-2.13.0.jar;C:\Users\bryzgachev_v\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.0\jackson-core-2.13.0.jar;C:\Users\bryzgachev_v\.m2\repository\org\aspectj\aspectjweaver\1.9.7\aspectjweaver-1.9.7.jar;C:\Users\bryzgachev_v\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="GMT+03:00"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.16_8\bin"/>
+    <property name="sun.java.command" value="C:\Users\BRYZGA~1\AppData\Local\Temp\surefire7209870250955855029\surefirebooter9733645082833267747.jar C:\Users\bryzgachev_v\AppData\Local\Temp\surefire7209870250955855029 2022-09-12T12-07-33_891-jvmRun1 surefire13873753130370881315tmp surefire_04362724713828121878tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\bryzgachev_v\IdeaProjects\Diplom-2\target\test-classes;C:\Users\bryzgachev_v\IdeaProjects\Diplom-2\target\classes;C:\Users\bryzgachev_v\.m2\repository\io\qameta\allure\allure-junit4\2.18.0\allure-junit4-2.18.0.jar;C:\Users\bryzgachev_v\.m2\repository\io\qameta\allure\allure-java-commons\2.18.0\allure-java-commons-2.18.0.jar;C:\Users\bryzgachev_v\.m2\repository\io\qameta\allure\allure-model\2.18.0\allure-model-2.18.0.jar;C:\Users\bryzgachev_v\.m2\repository\io\qameta\allure\allure-rest-assured\2.18.0\allure-rest-assured-2.18.0.jar;C:\Users\bryzgachev_v\.m2\repository\io\qameta\allure\allure-attachments\2.18.0\allure-attachments-2.18.0.jar;C:\Users\bryzgachev_v\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\bryzgachev_v\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\bryzgachev_v\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\bryzgachev_v\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\bryzgachev_v\.m2\repository\com\codeborne\selenide\5.23.2\selenide-5.23.2.jar;C:\Users\bryzgachev_v\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\bryzgachev_v\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\bryzgachev_v\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\bryzgachev_v\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\bryzgachev_v\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\bryzgachev_v\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\bryzgachev_v\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\bryzgachev_v\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\bryzgachev_v\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\bryzgachev_v\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\bryzgachev_v\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\bryzgachev_v\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\bryzgachev_v\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\bryzgachev_v\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\bryzgachev_v\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.3\webdrivermanager-4.4.3.jar;C:\Users\bryzgachev_v\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\bryzgachev_v\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\bryzgachev_v\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\bryzgachev_v\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\bryzgachev_v\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\bryzgachev_v\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1\httpclient5-5.1.jar;C:\Users\bryzgachev_v\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.1\httpcore5-5.1.1.jar;C:\Users\bryzgachev_v\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.1\httpcore5-h2-5.1.1.jar;C:\Users\bryzgachev_v\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\bryzgachev_v\.m2\repository\com\google\guava\guava\30.1.1-jre\guava-30.1.1-jre.jar;C:\Users\bryzgachev_v\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\bryzgachev_v\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\bryzgachev_v\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\bryzgachev_v\.m2\repository\org\checkerframework\checker-qual\3.8.0\checker-qual-3.8.0.jar;C:\Users\bryzgachev_v\.m2\repository\com\google\errorprone\error_prone_annotations\2.5.1\error_prone_annotations-2.5.1.jar;C:\Users\bryzgachev_v\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\bryzgachev_v\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\bryzgachev_v\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\bryzgachev_v\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\bryzgachev_v\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\bryzgachev_v\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\bryzgachev_v\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\bryzgachev_v\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\bryzgachev_v\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\bryzgachev_v\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\bryzgachev_v\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\bryzgachev_v\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\bryzgachev_v\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\bryzgachev_v\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\bryzgachev_v\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\bryzgachev_v\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\bryzgachev_v\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\bryzgachev_v\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\bryzgachev_v\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.0\jackson-databind-2.13.0.jar;C:\Users\bryzgachev_v\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.0\jackson-annotations-2.13.0.jar;C:\Users\bryzgachev_v\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.0\jackson-core-2.13.0.jar;C:\Users\bryzgachev_v\.m2\repository\org\aspectj\aspectjweaver\1.9.7\aspectjweaver-1.9.7.jar;C:\Users\bryzgachev_v\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="allure.results.directory" value="C:\Users\bryzgachev_v\IdeaProjects\Diplom-2\target/allure-results"/>
+    <property name="user.home" value="C:\Users\bryzgachev_v"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="C:\Program Files\Amazon Corretto\jdk11.0.16_8"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\bryzgachev_v\IdeaProjects\Diplom-2"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\BRYZGA~1\AppData\Local\Temp\surefire7209870250955855029\surefirebooter9733645082833267747.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.16+8-LTS"/>
+    <property name="user.name" value="Bryzgachev_V"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-11.0.16.8.1"/>
+    <property name="localRepository" value="C:\Users\bryzgachev_v\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
+    <property name="java.io.tmpdir" value="C:\Users\BRYZGA~1\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2022.1.4"/>
+    <property name="java.version" value="11.0.16"/>
+    <property name="user.dir" value="C:\Users\bryzgachev_v\IdeaProjects\Diplom-2"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.16_8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Amazon Corretto\jdk11.0.16_8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\bryzgachev_v\Downloads\allure-2.18.0\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\bryzgachev_v\Downloads\apache-maven-3.8.6\bin;C:\Users\bryzgachev_v\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="11.0.16+8-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="LoginUserTest" classname="User.LoginUserTest" time="1.183"/>
+  <testcase name="loginWithEmptyEmailTest" classname="User.LoginUserTest" time="0.828">
+    <error message="class io.restassured.path.xml.XmlPath cannot be cast to class java.lang.Boolean (io.restassured.path.xml.XmlPath is in unnamed module of loader &apos;app&apos;; java.lang.Boolean is in module java.base of loader &apos;bootstrap&apos;)" type="java.lang.ClassCastException">java.lang.ClassCastException: class io.restassured.path.xml.XmlPath cannot be cast to class java.lang.Boolean (io.restassured.path.xml.XmlPath is in unnamed module of loader 'app'; java.lang.Boolean is in module java.base of loader 'bootstrap')
+	at User.LoginUserTest.loginWithEmptyEmailTest(LoginUserTest.java:57)
+</error>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "utpqhawt@yandex.ru",
+    "password": "ZvuZGwFv",
+    "name": "uTpQHAWt"
+}
+HTTP/1.1 200 OK
+Date: Mon, 12 Sep 2022 09:07:49 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMWVmNmU1OTNlYmMyMDAxYjRjNmM5ZSIsImlhdCI6MTY2Mjk3MzY2OSwiZXhwIjoxNjYyOTc0ODY5fQ.J6cLYA1y6ZsbwPzbS24po2_65jkZIC7E8ijvyTDVtBE
+ETag: W/"16d-tirvzvwwQ5QOeIxUh1wX3oeF/EM"
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=SMc2XBkGMUVg3%2FyD0iic5gwEBnJUwt1sO9aNsNaOiDhT1SUliaSzjJxBl4kwHuFvwQobM862oGwmnpnPsKh86du8fC6GODB14d%2F%2FGms1eGO1Csh6PjyKajeRz75SiMXoZinjo3AQZLLJXq0OLwG9AVkoDFg%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 74977eb86ea3d93b-HEL
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "success": true,
+    "user": {
+        "email": "utpqhawt@yandex.ru",
+        "name": "uTpQHAWt"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMWVmNmU1OTNlYmMyMDAxYjRjNmM5ZSIsImlhdCI6MTY2Mjk3MzY2OSwiZXhwIjoxNjYyOTc0ODY5fQ.J6cLYA1y6ZsbwPzbS24po2_65jkZIC7E8ijvyTDVtBE",
+    "refreshToken": "888f9a76644cda1545413e7f116187bc22da5e42e5ce221ea0a48cac8c74a9fed7ef2e7afa000f56"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": null,
+    "password": "ZvuZGwFv",
+    "name": "uTpQHAWt"
+}
+HTTP/1.1 429 Too Many Requests
+Date: Mon, 12 Sep 2022 09:07:49 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=7llMAzT4W5pntiw8nENHyLaD80hrNNtnhL0wEBr6L%2BxKETOH1kderWB3THLOn%2FR8Zodmx%2BD3vW1diTfHfqNHqpJvXvBjqiMEYMJ7SBOCX1D%2Fc5RcJkUa8OEX4g8cjvaUWSN9XLtmvyJdA5zgVY1dBnHfjek%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 74977eba5a1e376d-HEL
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+<html>
+  <head>
+    <title>429 Too Many Requests</title>
+  </head>
+  <body>
+    <center>
+      <h1>429 Too Many Requests</h1>
+    </center>
+    <hr/>
+    <center>nginx/1.18.0 (Ubuntu)</center>
+  </body>
+</html>
+Request method:	DELETE
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 202 Accepted
+Date: Mon, 12 Sep 2022 09:07:49 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=5UJMIIjmP8ZqO%2Fjo5BMe7iQlkXTJpFmoYVPzzOFI1Fv2et%2FFJ3szMlwNI%2BY4%2BWzS0%2BznpNvIq8SZBuU%2FDFBepWdADoDEhwlh7svK9yksx%2F9dsOVhqtt%2BG3FN1vCKquChURuGCfGnshtiw8hvnwzHoZmk8aE%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 74977ebb9be53769-HEL
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="loginWithEmptyPasswordTest" classname="User.LoginUserTest" time="0.86">
+    <error message="class io.restassured.path.xml.XmlPath cannot be cast to class java.lang.Boolean (io.restassured.path.xml.XmlPath is in unnamed module of loader &apos;app&apos;; java.lang.Boolean is in module java.base of loader &apos;bootstrap&apos;)" type="java.lang.ClassCastException">java.lang.ClassCastException: class io.restassured.path.xml.XmlPath cannot be cast to class java.lang.Boolean (io.restassured.path.xml.XmlPath is in unnamed module of loader 'app'; java.lang.Boolean is in module java.base of loader 'bootstrap')
+	at User.LoginUserTest.loginWithEmptyPasswordTest(LoginUserTest.java:70)
+</error>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "vrmaomwm@yandex.ru",
+    "password": "FDwFlvyt",
+    "name": "VRMAoMWM"
+}
+HTTP/1.1 200 OK
+Date: Mon, 12 Sep 2022 09:07:50 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMWVmNmU2OTNlYmMyMDAxYjRjNmNhMCIsImlhdCI6MTY2Mjk3MzY3MCwiZXhwIjoxNjYyOTc0ODcwfQ.GVYscGHcXTP9uBdTM97KMNZ80IEr4TYRd_ks5naMy8o
+ETag: W/"16d-Pg6JMMGbaYHKYvQ9TdjET/Ih4I0"
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Pm%2Bcb133JrOlitcZ45K%2FLza%2FD7IRlKWa%2BtLQJNcwa3%2BfKgc0NXeMLAEDeyafJq6jHgIJ7Sm1DCiQthJnViG2TtxeUvubYTw%2FGFa82h6mH7fWXZWiCC6e49GOi%2Bx3PGGoBonjXAqKB2yhWAe4eSq52ix1ZQM%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 74977ebddeefd906-HEL
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "success": true,
+    "user": {
+        "email": "vrmaomwm@yandex.ru",
+        "name": "VRMAoMWM"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMWVmNmU2OTNlYmMyMDAxYjRjNmNhMCIsImlhdCI6MTY2Mjk3MzY3MCwiZXhwIjoxNjYyOTc0ODcwfQ.GVYscGHcXTP9uBdTM97KMNZ80IEr4TYRd_ks5naMy8o",
+    "refreshToken": "5e36ba4f2a892304dcd2d923366d57b6f075f4fb832fc50bd5c9eabe8bcab1e9bbce464da8b84686"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "vrmaomwm@yandex.ru",
+    "password": null,
+    "name": "VRMAoMWM"
+}
+HTTP/1.1 429 Too Many Requests
+Date: Mon, 12 Sep 2022 09:07:50 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=bO%2FoYf8cWo9X%2B8A9OVDD26NWk7%2BZ%2B45hhrCjWUMck%2BapebiTl%2BcTObuTyWsfQ5kyC0WBW%2FLbk2sW0lI9Sjo5WdqNjXnVJI6orx0KEIqxdl75CFMfzzZfg%2FfGKy40RHY29dQZ8IRm5WOepKODbV6SV8Mqm84%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 74977ebfbc13d95f-HEL
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+<html>
+  <head>
+    <title>429 Too Many Requests</title>
+  </head>
+  <body>
+    <center>
+      <h1>429 Too Many Requests</h1>
+    </center>
+    <hr/>
+    <center>nginx/1.18.0 (Ubuntu)</center>
+  </body>
+</html>
+Request method:	DELETE
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 202 Accepted
+Date: Mon, 12 Sep 2022 09:07:50 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=YFHrJIZIPgLZi4QZmnbx1fKC%2FNpHb82V%2B0qXrBrqEDIz2WQ%2BbD%2FCtuMuPIhKXVcYN7gOatqu5byfPyhvvCy5mGWaprcUuPL2wKCAaJSIHQaf2TkBb893iK4Bjrir1C2cabdx7YJXoq%2BFjilLZgteMxFsFj8%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 74977ec12b00d90a-HEL
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+]]></system-out>
+  </testcase>
+</testsuite>

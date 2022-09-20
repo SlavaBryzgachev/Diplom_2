@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: User.LoginUserTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 2.873 s <<< FAILURE! - in User.LoginUserTest
+loginWithEmptyEmailTest(User.LoginUserTest)  Time elapsed: 0.828 s  <<< ERROR!
+java.lang.ClassCastException: class io.restassured.path.xml.XmlPath cannot be cast to class java.lang.Boolean (io.restassured.path.xml.XmlPath is in unnamed module of loader 'app'; java.lang.Boolean is in module java.base of loader 'bootstrap')
+	at User.LoginUserTest.loginWithEmptyEmailTest(LoginUserTest.java:57)
+
+loginWithEmptyPasswordTest(User.LoginUserTest)  Time elapsed: 0.86 s  <<< ERROR!
+java.lang.ClassCastException: class io.restassured.path.xml.XmlPath cannot be cast to class java.lang.Boolean (io.restassured.path.xml.XmlPath is in unnamed module of loader 'app'; java.lang.Boolean is in module java.base of loader 'bootstrap')
+	at User.LoginUserTest.loginWithEmptyPasswordTest(LoginUserTest.java:70)
+
